@@ -6,14 +6,11 @@ public class Student {
 
     public void updateGrade(int newGrade) {
         this.grade = newGrade;
-    }
-
-    public void setGrade(int newGrade) {
         if (newGrade < 0 || newGrade > 100) {
             System.out.println("Invalid grade. Grade must be between 0 and 100.");
             return;
+    }
         }
-        this.grade = newGrade;
     }
  
-}
+
